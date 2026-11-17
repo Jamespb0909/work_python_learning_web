@@ -1,0 +1,6 @@
+{
+  "name": "PyStep Python 互動學習學院",
+  "description": "由淺入深的 Python 基礎互動教學平台，結合拖拽積木、程式碼填空與即時執行反饋系統。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
