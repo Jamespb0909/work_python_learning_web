@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ArrowRight, CheckCircle2, Circle, Code2 } from 'lucide-react';
 import { CURRICULUM_STAGES } from '../data/curriculum';
+import heroCurriculumImg from '../assets/images/hero_python_curriculum_1794896614233.jpg';
 
 interface CurriculumMapViewProps {
   completedLessonIds: string[];
@@ -50,7 +51,7 @@ export function CurriculumMapView({
         <div className="lg:col-span-5 bg-slate-100 border-t lg:border-t-0 lg:border-l border-slate-200 relative min-h-[220px]">
           {!imgFailed ? (
             <img
-              src="/src/assets/images/hero_python_curriculum_1794896614233.jpg"
+              src={heroCurriculumImg}
               alt="Python 基礎課程邏輯模組與資料流動示意圖"
               referrerPolicy="no-referrer"
               onError={() => setImgFailed(true)}
